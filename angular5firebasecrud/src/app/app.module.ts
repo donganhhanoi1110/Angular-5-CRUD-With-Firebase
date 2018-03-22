@@ -7,18 +7,20 @@ import { FormsModule} from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { environment } from '../environments/environment';
-import { EmployeesComponent } from './employees/employees.component';
-import { EmployeeComponent } from './employees/employee/employee.component';
-import { EmployeeListComponent } from './employees/employee-list/employee-list.component';
+import { GuestComponent } from './guests/guest/guest.component';
+import { GuestListComponent } from './guests/guest-list/guest-list.component';
 import { ToastrModule } from 'ngx-toastr';
+import { GuestsComponent } from './guests/guests.component';
+import { GuestService } from './guests/shared/guest.service';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    EmployeesComponent,
-    EmployeeComponent,
-    EmployeeListComponent
+    GuestsComponent,
+    GuestComponent,
+    GuestListComponent,
+    GuestsComponent
   ],
   imports: [
     BrowserModule,
@@ -27,7 +29,7 @@ import { ToastrModule } from 'ngx-toastr';
     FormsModule,
     ToastrModule.forRoot()
   ],
-  providers: [],
+  providers: [GuestService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

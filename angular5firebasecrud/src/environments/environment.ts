@@ -6,11 +6,11 @@
 export const environment = {
   production: false,
   firebaseConfig : {
-    apiKey: "AIzaSyAuVBA3Hmwtmv5VSxG1aMSCP5tegXv2I7Q",
-    authDomain: "angular5crud.firebaseapp.com",
-    databaseURL: "https://angular5crud.firebaseio.com",
-    projectId: "angular5crud",
-    storageBucket: "angular5crud.appspot.com",
-    messagingSenderId: "836539607922"
+    apiKey: "AIzaSyBnF0EPm8gWdw0sipUtymDJNzGAjgvwpBw",
+    authDomain: "minhnganwedding.firebaseapp.com",
+    databaseURL: "https://minhnganwedding.firebaseio.com",
+    projectId: "minhnganwedding",
+    storageBucket: "minhnganwedding.appspot.com",
+    messagingSenderId: "1019304506345"
   }
 };

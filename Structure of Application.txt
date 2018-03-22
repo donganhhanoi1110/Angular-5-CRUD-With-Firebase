@@ -1,16 +1,16 @@
 ● src
 +---● app
-|   +--● employees
-|   |  |--employees.component.ts|.html|.css
-|   |  +--● employee
-|   |  |  |--employee.component.ts|.html|.css
+|   +--● guests
+|   |  |--guests.component.ts|.html|.css
+|   |  +--● guest
+|   |  |  |--guest.component.ts|.html|.css
 |   |  |
-|   |  +--● employee-list
-|   |  |  |--employee-list.component.ts|.html|.css
+|   |  +--● guest-list
+|   |  |  |--guest-list.component.ts|.html|.css
 |   |  |
 |   |  +--● shared
-|   |     |--employee.service.ts
-|   |     |--employee.model.ts
+|   |     |--guest.service.ts
+|   |     |--guest.model.ts
 |   |
 |   |--app.module.ts (configured firebase connection)
 |
